@@ -1,0 +1,710 @@
+Run gaurav-nelson/github-action-markdown-link-check@v1
+  with:
+    config-file: .markdown-link-check.json
+    folder-path: .
+    use-quiet-mode: no
+    use-verbose-mode: no
+    max-depth: -1
+    check-modified-files-only: no
+    base-branch: master
+    file-extension: .md
+/usr/bin/docker run --name a9e453ade7414af904791bc4b9625e8023f9d_1d3ead --label 2a9e45 --workdir /github/workspace --rm -e "INPUT_CONFIG-FILE" -e "INPUT_FOLDER-PATH" -e "INPUT_USE-QUIET-MODE" -e "INPUT_USE-VERBOSE-MODE" -e "INPUT_MAX-DEPTH" -e "INPUT_CHECK-MODIFIED-FILES-ONLY" -e "INPUT_BASE-BRANCH" -e "INPUT_FILE-EXTENSION" -e "INPUT_FILE-PATH" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_RESULTS_URL" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/sailbot_workspace/sailbot_workspace":"/github/workspace" 2a9e45:3ade7414af904791bc4b9625e8023f9d  "no" "no" ".markdown-link-check.json" "." "-1" "no" "master" ".md" ""
+npm warn deprecated har-validator@5.1.5: this library is no longer supported
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+added 65 packages in 2s
+
+5 packages are looking for funding
+  run `npm fund` for details
+Using markdown-link-check configuration file: .markdown-link-check.json
+USE_QUIET_MODE: no
+USE_VERBOSE_MODE: no
+FOLDER_PATH: .
+MAX_DEPTH: -1
+CHECK_MODIFIED_FILES: no
+FILE_EXTENSION: .md
+FILE_PATH: 
++ find . -name '*.md' -not -path './node_modules/*' -exec markdown-link-check '{}' --config .markdown-link-check.json ';'
++ set +x
+=========================> MARKDOWN LINK CHECK <=========================
+
+FILE: ./notebooks/README.md
+[✓] https://github.com/UBCSailbot/sailbot_workspace
+
+1 links checked.
+
+FILE: ./README.md
+[✓] https://github.com/UBCSailbot/sailbot_workspace/actions/workflows/tests.yml
+[✓] https://github.com/UBCSailbot/sailbot_workspace/actions/workflows/tests.yml/badge.svg
+[✓] https://github.com/UBCSailbot/sailbot_workspace/actions/workflows/docs.yml
+[✓] https://github.com/UBCSailbot/sailbot_workspace/actions/workflows/docs.yml/badge.svg
+[✓] https://github.com/UBCSailbot/sailbot_workspace/actions/workflows/build-images.yml
+[✓] https://github.com/UBCSailbot/sailbot_workspace/actions/workflows/build-images.yml/badge.svg
+[✓] https://github.com/athackst/vscode_ros2_workspace
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/current/sailbot_workspace/usage/workflow/
+[✓] https://github.com/ament/ament_lint/tree/humble
+[✓] https://docs.ros.org/en/humble/The-ROS2-Project/Contributing/Code-Style-Language-Versions.html
+[✓] https://code.visualstudio.com/docs/devcontainers/containers
+[✓] https://www.docker.com/resources/what-container/
+[✓] https://github.com/UBCSailbot/sailbot_workspace/blob/main/.devcontainer
+[✓] https://code.visualstudio.com/docs
+[✓] https://github.com/UBCSailbot/sailbot_workspace/blob/main/sailbot.code-workspace
+[✓] https://code.visualstudio.com/docs/editor/debugging#_launch-configurations
+[✓] https://code.visualstudio.com/docs/editor/tasks
+[/] https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions
+[✓] https://github.com/orgs/UBCSailbot/packages?repo_name=sailbot_workspace
+[/] https://docs.github.com/en/actions/using-workflows/reusing-workflows
+[✓] https://github.com/UBCSailbot/sailbot_workspace/tree/main/.github/workflows
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/current/sailbot_workspace/usage/how_to/#use-your-dotfiles
+[✓] https://www.ubcsailbot.org/rayes-story
+[✓] https://github.com/UBCSailbot/sailbot_workspace/tree/raye
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/current/sailbot_workspace/usage/how_to/#run-rayes-software
+[✓] https://github.com/UBCSailbot/sailbot_workspace/pull/61
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/current/sailbot_workspace/overview/
+
+27 links checked.
+
+FILE: ./scripts/README.md
+[/] https://linuxize.com/post/bash-shebang/
+
+1 links checked.
+
+FILE: ./scripts/deployment/README.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/reference/sailing/boat_parts.md
+[✓] ../../assets/images/sailing/parts_of_boat.jpg
+[✓] ../../assets/images/sailing/regions_of_hull.jpg
+
+2 links checked.
+
+FILE: ./docs/reference/sailing/overview.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/reference/sailing/ais_terms.md
+[✓] miscellaneous.md/#track-made-good
+
+1 links checked.
+
+FILE: ./docs/reference/sailing/points_of_sail.md
+[✓] ../../assets/images/sailing/points_of_sail.jpg
+[✓] ../../assets/images/sailing/upwind_downwind_sailing.jpg
+
+2 links checked.
+
+FILE: ./docs/reference/sailing/turning.md
+[✓] ../../assets/images/sailing/types_of_turn.jpg
+[✓] ../../assets/images/sailing/head_up.jpg
+[✓] ../../assets/images/sailing/bear_off.jpg
+[✓] ../../assets/images/sailing/tack.jpg
+[✓] ../../assets/images/sailing/gybe.jpg
+[✓] ../../assets/images/sailing/bear_off_then_gybe.jpg
+
+6 links checked.
+
+FILE: ./docs/reference/sailing/miscellaneous.md
+[✓] ../../assets/images/sailing/bearing_vs_heading.jpg
+[✓] ../../assets/images/sailing/track_made_good.jpg
+[✓] ../../assets/images/sailing/wind_types.jpg
+[✓] ./turning.md#tacking
+[✓] ../../assets/images/sailing/tack_other_meaning.jpg
+
+5 links checked.
+
+FILE: ./docs/reference/docker.md
+[✓] https://www.docker.com/
+[✓] https://en.wikipedia.org/wiki/Docker_(software)
+[✓] https://docs.docker.com/get-docker/
+
+3 links checked.
+
+FILE: ./docs/reference/python/virtual-environments.md
+[✓] https://pypi.org/project/virtualenv/
+[✓] https://www.anaconda.com/
+[✓] https://docs.python.org/3/library/venv.html#module-venv
+[✓] https://conda.io/projects/conda/en/latest/user-guide/concepts/environments.html#
+
+4 links checked.
+
+FILE: ./docs/reference/python/conventions.md
+[✓] https://flake8.pycqa.org/en/5.0.4/#
+[✓] https://peps.python.org/pep-0008/
+[✓] https://github.com/hhatto/autopep8
+[✓] https://realpython.com/python-pep8/
+[✓] https://realpython.com/lessons/pros-and-cons-type-hints/
+[✓] https://mypy.readthedocs.io/en/stable/index.html
+[✓] https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html
+[✓] https://peps.python.org/pep-0483/
+[✓] https://peps.python.org/pep-0484/
+[✓] https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+[✓] #type-hinting
+[✓] https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings
+[✓] https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+
+13 links checked.
+
+FILE: ./docs/reference/python/start.md
+[✓] https://docs.python.org/3/tutorial/
+[✓] https://www.w3schools.com/python/default.asp
+[✓] https://youtu.be/t8pPdKYpowI
+[✓] https://youtu.be/kqtD5dpn9C8
+[✓] https://codingbat.com/python
+
+5 links checked.
+
+FILE: ./docs/reference/github/github_actions.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/reference/github/advanced_git.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/reference/github/workflow/overview.md
+[✓] https://youtu.be/HVsySz-h9r4
+[✓] https://git-scm.com/book/en/v2
+[✓] https://patrick-5546.github.io/notes/reference/git/git_commands/
+[✓] ./issues.md#creating-issues
+[✓] ./issues.md#adding-issues-to-a-project
+[✓] ./issues.md#adding-issues-to-a-milestone
+
+6 links checked.
+
+FILE: ./docs/reference/github/workflow/branches.md
+[✓] https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
+[✓] ../../../assets/images/github/workflow/merge_conflict.png
+[✓] ../../../assets/images/github/workflow/merge_conflict_file.png
+[/] https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github
+[/] https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line
+
+5 links checked.
+
+FILE: ./docs/reference/github/workflow/issues.md
+[✓] ../../../assets/images/github/workflow/issue_tab.png
+[✓] ../../../assets/images/github/workflow/issue_list.png
+[✓] ../../../assets/images/github/workflow/issue_template_list.png
+[✓] ../../../assets/images/github/workflow/new_feature_template.png
+[/] https://github.com/UBCSailbot/.github/issues/templates/edit
+[✓] ../../../assets/images/github/workflow/gh_project.png
+[✓] ../../../assets/images/github/workflow/gh_milestone.png
+[✓] ../../../assets/images/github/workflow/gh_labels.png
+[✓] ../../../assets/images/github/workflow/gh_assignee.png
+
+9 links checked.
+
+FILE: ./docs/reference/github/workflow/pr.md
+[✓] ../../../assets/images/github/workflow/create_pr.png
+[✓] ../../../assets/images/github/workflow/branch_comparison.png
+[✓] ../../../assets/images/github/workflow/pr_example.png
+[/] https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue
+[✓] ../../../assets/images/github/workflow/pr_merge.png
+[✓] ../../../assets/images/github/workflow/pr_comment_snippet.png
+
+6 links checked.
+
+FILE: ./docs/reference/linux_commands.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/reference/markdown.md
+[✓] https://www.markdownguide.org/getting-started/
+[✓] https://www.markdownguide.org/tools/
+[✓] https://www.markdownguide.org/
+[✓] https://github.com/UBCSailbot/sailbot_workspace/tree/main/docs
+[✓] https://code.visualstudio.com/docs/languages/markdown#_markdown-preview
+[✓] https://markdownlivepreview.com/
+[✓] https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles
+[✓] ../current/sailbot_workspace/usage/how_to.md#work-with-containerized-applications
+[✓] https://squidfunk.github.io/mkdocs-material/getting-started/
+[✓] https://github.com/DavidAnson/markdownlint
+[✓] https://github.com/UBCSailbot/sailbot_workspace/blob/main/.markdownlint.json
+[✓] https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+[✓] https://github.com/tcort/markdown-link-check
+[✓] https://github.com/UBCSailbot/sailbot_workspace/blob/main/.markdown-link-check.json
+
+14 links checked.
+
+FILE: ./docs/reference/ros.md
+[✓] https://docs.ros.org/en/humble/index.html
+[✓] https://www.toptal.com/robotics/introduction-to-robot-operating-system
+[✓] https://github.com/UBCSailbot/sailbot_workspace
+[✓] https://docs.ros.org/en/humble/Installation.html
+[✓] https://github.com/UBCSailbot/sailbot_workspace/tree/main/.devcontainer
+[✓] ../current/sailbot_workspace/usage/setup.md
+[✓] https://github.com/UBCSailbot/sailbot_workspace/blob/main/.devcontainer/Dockerfile
+[✓] https://github.com/ros/ros_tutorials/tree/humble
+[✓] https://github.com/UBCSailbot/py_pubsub_ex
+[✓] https://github.com/UBCSailbot/cpp_pubsub_ex
+[✓] https://docs.ros.org/en/humble/Tutorials.html
+[✓] https://docs.ros.org/en/humble/Concepts.html
+[✓] https://ubuntu.com/robotics/what-is-ros
+[✓] http://design.ros2.org/articles/changes.html
+[✓] https://github.com/ros2/ros1_bridge/blob/master/README.md
+[✓] https://docs.ros.org/en/humble/Tutorials/Launch-files-migration-guide.html
+
+16 links checked.
+
+FILE: ./docs/reference/cpp/tools.md
+[✓] https://cmake.org/cmake/help/latest/guide/tutorial/index.html
+[✓] https://www.sourceware.org/gdb/
+[✓] https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
+[✓] https://github.com/google/googletest
+[✓] https://google.github.io/googletest/primer.html
+[✓] https://developers.google.com/protocol-buffers
+[✓] https://developers.google.com/protocol-buffers/docs/cpptutorial
+[✖] https://clang.llvm.org/
+[✓] https://clangd.llvm.org/
+[✖] https://clang.llvm.org/extra/clang-tidy/
+[✖] https://llvm.org/docs/CommandGuide/llvm-cov.html
+[✓] https://www.systutorials.com/docs/linux/man/1-genhtml/
+
+12 links checked.
+
+ERROR: 3 dead links found!
+[✖] https://clang.llvm.org/ → Status: 0
+[✖] https://clang.llvm.org/extra/clang-tidy/ → Status: 0
+[✖] https://llvm.org/docs/CommandGuide/llvm-cov.html → Status: 0
+
+FILE: ./docs/reference/cpp/differences.md
+/usr/local/lib/node_modules/markdown-link-check/node_modules/link-check/lib/proto/http.js:31
+            uri: encodeURI(decodeURI(link)),
+                           ^
+
+URIError: URI malformed
+    at decodeURI (<anonymous>)
+    at Object.check (/usr/local/lib/node_modules/markdown-link-check/node_modules/link-check/lib/proto/http.js:31:28)
+    at linkCheck (/usr/local/lib/node_modules/markdown-link-check/node_modules/link-check/index.js:25:25)
+    at /usr/local/lib/node_modules/markdown-link-check/index.js:115:9
+    at /usr/local/lib/node_modules/markdown-link-check/node_modules/async/dist/async.js:247:13
+    at replenish (/usr/local/lib/node_modules/markdown-link-check/node_modules/async/dist/async.js:447:21)
+    at iterateeCallback (/usr/local/lib/node_modules/markdown-link-check/node_modules/async/dist/async.js:431:21)
+    at /usr/local/lib/node_modules/markdown-link-check/node_modules/async/dist/async.js:328:20
+    at /usr/local/lib/node_modules/markdown-link-check/node_modules/async/dist/async.js:249:17
+    at /usr/local/lib/node_modules/markdown-link-check/index.js:126:13
+
+Node.js v22.19.0
+
+FILE: ./docs/reference/cpp/start.md
+[✓] ./differences.md
+[✓] https://www.w3schools.com/cpp/default.asp
+[✓] https://youtu.be/vLnPwxZdW4Y
+[✓] https://www.tutorialspoint.com/cplusplus/cpp_dynamic_memory.htm
+
+4 links checked.
+
+FILE: ./docs/about_us.md
+[✓] https://www.ubcsailbot.org/
+[✓] https://github.com/UBCSailbot/sailbot_workspace
+[✓] https://docs.google.com/document/d/1bToOV3JvMZFJ9jotrjlFIvDgY8xiXfH7Yg1wkGm8Qf4/edit?usp=sharing
+[✓] https://www.ubcsailbot.org/recruitment
+
+4 links checked.
+
+FILE: ./docs/index.md
+[✓] ./current/sailbot_workspace/usage/setup.md
+[✓] ./current/overview.md
+[✓] ./reference/cpp/start.md
+[✓] https://docs.google.com/document/d/1bToOV3JvMZFJ9jotrjlFIvDgY8xiXfH7Yg1wkGm8Qf4/edit?usp=sharing
+[✓] https://www.ubcsailbot.org/recruitment
+
+5 links checked.
+
+FILE: ./docs/current/network_systems/overview.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/current/website/overview.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/current/boat_simulator/overview.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/current/overview.md
+[✓] ../reference/ros.md
+
+1 links checked.
+
+FILE: ./docs/current/custom_interfaces/overview.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/current/local_pathfinding/overview.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/current/sailbot_workspace/reference/notebooks.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/current/sailbot_workspace/reference/parameters.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/current/sailbot_workspace/reference/docs_site.md
+[✓] https://github.com/UBCSailbot/sailbot_workspace
+[✓] ../usage/how_to.md#work-with-containerized-applications
+[✓] https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#dependencies
+[✓] ../../../reference/python/virtual-environments.md
+[✓] #setup-in-sailbot-workspace
+[✓] ../../../reference/markdown.md
+[/] https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+
+7 links checked.
+
+FILE: ./docs/current/sailbot_workspace/reference/launch_files.md
+[✓] https://docs.ros.org/en/humble/Concepts/Basic/About-Parameters.html
+[✓] https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Launch-Main.html
+
+2 links checked.
+
+FILE: ./docs/current/sailbot_workspace/reference/docker_images.md
+[✓] https://github.com/UBCSailbot/sailbot_workspace/tree/main/.devcontainer/base-dev
+[/] https://hub.docker.com/_/ubuntu
+[✖] https://github.com/UBCSailbot/sailbot_workspace/blob/main/.devcontainer/base-dev/base-dev.Dockerfile
+[✓] https://github.com/UBCSailbot/sailbot_workspace/tree/main/.devcontainer
+[✓] https://github.com/UBCSailbot/sailbot_workspace/blob/main/.devcontainer/Dockerfile
+[✓] https://github.com/UBCSailbot/sailbot_workspace/tree/main/.devcontainer/docs
+[/] https://hub.docker.com/r/squidfunk/mkdocs-material
+[✓] https://github.com/UBCSailbot/sailbot_workspace/blob/main/.devcontainer/docs/docs.Dockerfile
+[✓] ../usage/how_to.md#run-optional-programs
+[✓] https://github.com/UBCSailbot/sailbot_workspace/tree/main/.devcontainer/website
+[/] https://hub.docker.com/_/microsoft-vscode-devcontainers
+[✓] https://github.com/UBCSailbot/sailbot_workspace/blob/main/.devcontainer/website/website.Dockerfile
+
+12 links checked.
+
+ERROR: 1 dead links found!
+[✖] https://github.com/UBCSailbot/sailbot_workspace/blob/main/.devcontainer/base-dev/base-dev.Dockerfile → Status: 429
+
+FILE: ./docs/current/sailbot_workspace/reference/deployment.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/current/sailbot_workspace/scripts.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/current/sailbot_workspace/overview.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./docs/current/sailbot_workspace/usage/workflow.md
+[✓] setup.md
+[✓] https://github.com/UBCSailbot/sailbot_workspace/releases
+[✓] https://github.com/UBCSailbot/sailbot_workspace/commits/main
+[✓] ./how_to.md#work-with-containerized-applications
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/reference/github/workflow/overview/
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/reference/github/workflow/branches/
+[✓] ../reference/launch_files.md
+[✓] ../reference/launch_files.md#invoking-launch-files
+
+8 links checked.
+
+FILE: ./docs/current/sailbot_workspace/usage/how_to.md
+[✓] https://code.visualstudio.com/docs/editor/debugging#_run-and-debug-view
+[✓] https://www.mongodb.com/
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/
+[✓] https://github.com/UBCSailbot/sailbot_workspace/tree/main/src/website
+[✓] #managing-containerized-applications
+[✓] https://www.mongodb.com/products/vs-code
+[✓] https://www.mongodb.com/docs/mongodb-vscode/connect/#create-a-connection-to-a-deployment
+[✓] https://www.mongodb.com/docs/mongodb-vscode/
+[✓] https://docs.ros.org/en/humble/Tutorials/Intermediate/Rosdep.html#id4
+[✓] https://github.com/ros/rosdistro/blob/master/rosdep/base.yaml
+[✓] https://github.com/ros/rosdistro/blob/master/rosdep/python.yaml
+[✓] #run-vs-code-commands-tasks-and-launch-configurations
+[✓] https://docs.ros.org/en/humble/Tutorials/Intermediate/Rosdep.html
+[✓] ../reference/docker_images.md
+[/] https://docs.github.com/en/copilot/quickstart
+[/] https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student
+[/] https://docs.github.com/en/copilot/quickstart#signing-up-for-github-copilot-for-your-personal-account
+[/] https://docs.github.com/en/copilot/getting-started-with-github-copilot
+[/] https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment
+[✓] https://www.freecodecamp.org/news/dotfiles-what-is-a-dot-file-and-how-to-create-it-in-mac-and-linux/
+[✓] https://github.com/UBCSailbot/raye-local-pathfinding?tab=readme-ov-file#visualizing-the-simulation
+[✓] ./setup.md#2-setup-x11-forwarding
+
+22 links checked.
+
+FILE: ./docs/current/sailbot_workspace/usage/help.md
+[✓] ./setup.md#setup-sailbot-workspace-in-a-github-codespace
+[✓] https://www.linuxtechi.com/dual-boot-ubuntu-22-04-and-windows-11/
+[✓] ./workflow.md#2-update-sailbot-workspace
+[✓] https://stackoverflow.com/a/53755378
+[✓] https://stackoverflow.com/a/77224786
+[✓] https://github.com/microsoft/WSL/issues/4699#issuecomment-627133168
+
+6 links checked.
+
+FILE: ./docs/current/sailbot_workspace/usage/setup.md
+[✓] https://ubuntu.com/
+[/] https://distrowatch.com/search.php?basedon=Ubuntu
+[✓] ./help.md#performance-issues
+[✓] https://www.docker.com/
+[✓] https://docs.docker.com/engine/
+[✓] https://docs.docker.com/desktop/
+[✓] https://en.wikipedia.org/wiki/Docker_(software)
+[✓] https://docs.docker.com/get-docker/
+[✓] https://www.docker.com/blog/how-to-check-docker-version/
+[✓] https://code.visualstudio.com/
+[✓] https://code.visualstudio.com/docs/setup/setup-overview
+[✓] https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
+[✓] https://git-scm.com/download
+[✓] https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git#git-config-file-setup
+[✓] https://github.com/orgs/UBCSailbot/teams/software-team
+[✓] https://git-scm.com
+[✓] https://github.com/UBCSailbot/sailbot_workspace
+[/] https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository
+[/] https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts
+[/] https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student
+[/] https://docs.github.com/en/codespaces/developing-in-codespaces/stopping-and-starting-a-codespace#stopping-a-codespace
+[/] https://docs.github.com/en/codespaces/developing-in-codespaces/deleting-a-codespace#deleting-a-codespace
+[/] https://docs.github.com/en/codespaces/developing-in-codespaces/opening-an-existing-codespace#reopening-a-codespace
+[/] https://docs.github.com/en/codespaces/overview
+
+24 links checked.
+
+FILE: ./docs/current/controller/overview.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./diagrams/README.md
+[✓] template.puml
+[✓] #render-in-vscode-simplest-way-to-view
+[✓] https://plantuml.com/
+[✓] src/
+[✓] https://plantuml.com/sequence-diagram
+[✓] https://plantuml.com/activity-diagram-beta
+[✓] https://plantuml.com/state-diagram
+[✓] https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html
+
+8 links checked.
+
+FILE: ./.devcontainer/README.md
+[✓] #sailbot-workspace-image
+[✓] ./docs/
+[✓] ./website/
+[✓] ./devcontainer.json
+[✓] https://containers.dev/implementors/json_reference/
+[✓] ./base-dev/
+[✓] ./config/
+[✓] ./config/README.md
+
+8 links checked.
+
+FILE: ./.devcontainer/docs/README.md
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/
+[/] https://hub.docker.com/r/squidfunk/mkdocs-material
+[✓] ../../src/
+
+3 links checked.
+
+FILE: ./.devcontainer/website/README.md
+[✓] https://github.com/UBCSailbot/sailbot_workspace/tree/main/src/website
+[/] https://hub.docker.com/_/microsoft-vscode-devcontainers
+[✓] ../../src/
+
+3 links checked.
+
+FILE: ./.devcontainer/config/README.md
+[✓] https://code.visualstudio.com/docs/editor/multi-root-workspaces
+[✓] ../../.gitignore
+[✓] ../.dockerignore
+
+3 links checked.
+
+FILE: ./.devcontainer/base-dev/README.md
+[/] https://hub.docker.com/_/ubuntu
+[✓] ../../scripts/deployment/
+[✓] base-dev.Dockerfile
+[✓] https://github.com/UBCSailbot/sailbot_workspace/actions/workflows/build-images.yml
+[✓] ../Dockerfile
+[/] https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#authenticating-with-a-personal-access-token-classic
+
+6 links checked.
+
+FILE: ./.github/ISSUE_TEMPLATE/infrastructure-update.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./.github/ISSUE_TEMPLATE/docs-page-new.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./.github/ISSUE_TEMPLATE/create-tasklist.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./.github/ISSUE_TEMPLATE/feature-update.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./.github/ISSUE_TEMPLATE/docs-page-update.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./.github/ISSUE_TEMPLATE/bug-report.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./.github/ISSUE_TEMPLATE/feature-new.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./.github/pull_request_template.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./src/virtual_iridium/README.md
+[✓] http://githalytics.com/jmalsbury/virtual_iridium
+[/] https://cruel-carlota.pagodabox.com/bdb824945e9b3e4a959feb550731a1e0
+
+2 links checked.
+
+FILE: ./src/network_systems/launch/README.md
+[✓] ../config/README.md
+
+1 links checked.
+
+FILE: ./src/network_systems/README.md
+[✓] https://github.com/UBCSailbot/sailbot_workspace
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/current/sailbot_workspace/usage/setup/
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/current/sailbot_workspace/reference/launch_files/
+[✓] config/
+[✓] projects/
+[✓] https://github.com/google/googletest
+[✓] projects/example/test/test_cached_fib.cpp
+[✓] https://marketplace.visualstudio.com/items?itemName=matepek.vscode-catch2-test-adapter
+[✓] #run-test-binaries
+
+9 links checked.
+
+FILE: ./src/network_systems/scripts/README.md
+[✓] ../ros_info.yaml
+[✓] ../lib/sailbot_db/src/main.cpp
+[✓] https://docs.groundcontrol.com/iot/rockblock/web-services/sending-mt-message
+[/] http://localhost:8100/?data=thisistestdata&amp;ec=B&amp;imei=300434065264590&amp;username=myuser
+
+4 links checked.
+
+FILE: ./src/network_systems/projects/example/README.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./src/network_systems/config/README.md
+[✓] ../projects/
+
+1 links checked.
+
+FILE: ./src/network_systems/lib/README.md
+[✓] https://protobuf.dev/
+
+1 links checked.
+
+FILE: ./src/global_launch/config/README.md
+[✓] https://docs.ros.org/en/humble/Concepts/Basic/About-Parameters.html
+[✓] https://ompl.kavrakilab.org/planners.html
+
+2 links checked.
+
+FILE: ./src/website/README.md
+[✓] https://nextjs.org/
+[✓] https://www.typescriptlang.org/docs/
+[✓] https://react.dev/
+[✓] https://redux-saga.js.org/
+[✓] https://www.mongodb.com/
+[✓] https://github.com/UBCSailbot/sailbot_workspace
+[✓] https://docs.mongodb.com/
+[/] http://localhost:3005
+[✓] https://prettier.io/docs/en/index.html
+[✓] https://eslint.org/docs/latest/use/getting-started
+
+10 links checked.
+
+FILE: ./src/website/tests/README.md
+[✓] https://github.com/cucumber/cucumber-js
+[✓] https://www.typescriptlang.org/
+
+2 links checked.
+
+FILE: ./src/boat_simulator/README.md
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/current/boat_simulator/overview/
+[✓] https://github.com/UBCSailbot/sailbot_workspace
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/current/sailbot_workspace/usage/setup/
+[✓] ./launch/
+[✓] https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Launch-Main.html
+[✓] https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette
+
+6 links checked.
+
+FILE: ./src/custom_interfaces/README.md
+[✓] https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.html#test-the-new-interfaces
+[✓] https://github.com/UBCSailbot/sailbot_workspace/blob/main/src/custom_interfaces/diagrams/out/external_interfaces.png?raw=true
+[✓] https://github.com/UBCSailbot/sailbot_workspace/tree/main/src/boat_simulator
+[✓] https://github.com/ros2/common_interfaces/tree/humble
+[✓] https://github.com/UBCSailbot/custom_interfaces/issues/3#issuecomment-1626875658
+[✓] https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.html
+
+6 links checked.
+
+FILE: ./src/integration_tests/README.md
+[✓] testplans/example.yaml
+
+1 links checked.
+
+FILE: ./src/local_pathfinding/README.md
+[✓] https://docs.ros.org/en/humble/Concepts/About-Logging.html#severity-level
+
+1 links checked.
+
+FILE: ./src/local_pathfinding/global_paths/README.md
+No hyperlinks found!
+
+0 links checked.
+
+FILE: ./src/controller/README.md
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/current/controller/overview/
+[✓] https://github.com/UBCSailbot/sailbot_workspace
+[✓] https://ubcsailbot.github.io/sailbot_workspace/main/current/sailbot_workspace/usage/setup/
+[✓] ./launch/
+[✓] https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Launch-Main.html
+[✓] https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette
+
+6 links checked.
+
+FILE: ./src/diagnostics/README.md
+No hyperlinks found!
+
+0 links checked.
+
+=========================================================================
