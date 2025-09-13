@@ -260,35 +260,17 @@ FILE: ./docs/reference/cpp/tools.md
 [✓] https://google.github.io/googletest/primer.html
 [✓] https://developers.google.com/protocol-buffers
 [✓] https://developers.google.com/protocol-buffers/docs/cpptutorial
-[✖] https://clang.llvm.org/
+[✓] https://clang.llvm.org/
 [✓] https://clangd.llvm.org/
-[✖] https://clang.llvm.org/extra/clang-tidy/
-[✖] https://llvm.org/docs/CommandGuide/llvm-cov.html
+[✓] https://clang.llvm.org/extra/clang-tidy/
+[✓] https://llvm.org/docs/CommandGuide/llvm-cov.html
 [✓] https://www.systutorials.com/docs/linux/man/1-genhtml/
 
 12 links checked.
 
-ERROR: 3 dead links found!
-[✖] https://clang.llvm.org/ → Status: 0
-[✖] https://clang.llvm.org/extra/clang-tidy/ → Status: 0
-[✖] https://llvm.org/docs/CommandGuide/llvm-cov.html → Status: 0
-
 FILE: ./docs/reference/cpp/differences.md
 /usr/local/lib/node_modules/markdown-link-check/node_modules/link-check/lib/proto/http.js:31
             uri: encodeURI(decodeURI(link)),
-                           ^
-
-URIError: URI malformed
-    at decodeURI (<anonymous>)
-    at Object.check (/usr/local/lib/node_modules/markdown-link-check/node_modules/link-check/lib/proto/http.js:31:28)
-    at linkCheck (/usr/local/lib/node_modules/markdown-link-check/node_modules/link-check/index.js:25:25)
-    at /usr/local/lib/node_modules/markdown-link-check/index.js:115:9
-    at /usr/local/lib/node_modules/markdown-link-check/node_modules/async/dist/async.js:247:13
-    at replenish (/usr/local/lib/node_modules/markdown-link-check/node_modules/async/dist/async.js:447:21)
-    at iterateeCallback (/usr/local/lib/node_modules/markdown-link-check/node_modules/async/dist/async.js:431:21)
-    at /usr/local/lib/node_modules/markdown-link-check/node_modules/async/dist/async.js:328:20
-    at /usr/local/lib/node_modules/markdown-link-check/node_modules/async/dist/async.js:249:17
-    at /usr/local/lib/node_modules/markdown-link-check/index.js:126:13
 
 Node.js v22.19.0
 
